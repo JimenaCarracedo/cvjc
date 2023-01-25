@@ -1,0 +1,91 @@
+#cv{
+    background-image: url(/assets/img/background.jpg);
+    
+    
+    
+}
+body>header{
+    color:crimson;
+    font-size:200%;
+    margin-inline:5%;
+    text-align: center;
+}
+
+nav{
+    
+    position: fixed;
+    left: 60%;
+    right: 0%;
+    background-color: #fffcfe; 
+    opacity: .6;
+    font-weight: 800;
+    
+}
+nav>a{
+    color: hsl(318, 86%, 46%); 
+    font-family:sans-serif;
+    size: 200;
+}
+
+article>h1{
+    color: rgb(5, 1, 65); 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size:300%;
+    text-decoration: underline;
+}
+.responsive {
+    display:block;
+    width: 25%;
+    height: auto;
+    margin-right:auto;
+    margin-left: auto;
+    border-radius: 20px;
+    border-width: 5px;
+    border-style: solid;
+    border-color:rgb(5, 1, 65);
+    
+    
+  }
+#InformaciónPersonal{
+    color: black;
+    text-align: left;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-size:x-large;
+}
+#Estudios{
+    color:black;
+    text-align: left;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-size: x-large;
+    
+}
+#Idiomas{
+    color: black;
+    text-align: left;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-size: x-large;
+}
+#Experiencialaboral{
+    color: black;
+    text-align: left;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-size: x-large;
+}
+div>article>section>div>h2{
+    text-decoration: underline;
+}
+div>article>section>div{
+    border-bottom-width: 3px; 
+    border-bottom-color: hsl(318, 86%, 46%);
+    border-bottom-style: solid;
+}
+body>footer{
+    color: rgb(5, 1, 65);
+    text-align: center;
+    font-size:larger;
+}
