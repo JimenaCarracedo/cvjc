@@ -1,8 +1,5 @@
-#cv{
+.body{
     background-image: url("Proyecto/assets/img/background.jpg");
-    
-    
-    
 }
 body>header{
     color:crimson;
